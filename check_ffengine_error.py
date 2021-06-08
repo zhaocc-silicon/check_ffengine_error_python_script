@@ -28,7 +28,7 @@ def count_error(path):
             path_end = os.path.join(sub_path,
                                     sub_foleder_1)  # frag_FRSIMZWJVMLPAI-UHFFFAOYSA-N/2021-05-28T02:10:49+08:00
             end_files = os.listdir(path_end)
-            if len(end_files) == 4:
+            if len(end_files) >= 4:
                 file_path = os.path.join(path_end, end_files[-1])
                 with open(file_path) as f:
                     lines = f.readlines()
