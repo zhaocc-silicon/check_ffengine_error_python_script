@@ -5,5 +5,5 @@
 5. The "other_error.csv" file record all errors that the keywords are not in 'error_type'
 
 note: Sometimes the script cannot grab all error information, you still need to see the error in 'dag' page.
-      Before you run the script, you'd better check the 'path'.
+      Before running the script, you'd better check the 'path'.
 
